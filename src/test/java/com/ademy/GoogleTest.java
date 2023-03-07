@@ -22,6 +22,4 @@ public class GoogleTest extends BatePO {
         String resultado = googlePO.obterResultadoDaPesquisa();
         assertTrue(resultado.contains("Aproximadamente"));
     }
-
-
 }

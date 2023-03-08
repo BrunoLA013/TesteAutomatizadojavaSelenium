@@ -1,0 +1,20 @@
+passo a passo para criação de testes automatizados
+
+    1 - Estrututrar o projeto PageObject de login
+        1.1 - Criar um arquivo chamado LoginPO, dentro da pasta page
+        1.2 - fazer herança do arquivo BasePO
+        1.3 - fazer o mapeamento de todos os elementos da tela de login
+            1.3.1 criar os elemtos com pageFactory.
+
+    2 - Estruturar o arquivos de teste de login
+        2.1 Criar um arquivo chamado LoginTest
+        2.2 fazer a herança BaseTest -
+        2.3 criar um metoro inicial que saiba instanciar um PO de login
+        2.4 Criar os testes baseados na Planilha
+            2.4.1	Acesso Sem Login e Sem senha
+            2.4.2	Acesso só com login errado
+            2.4.3	Acesso só com senha errado
+            2.4.4	Acesso Login e senha errados
+            2.4.5	Acesso Login certo e senha errada
+            2.4.6	Acesso Login errado e senha errada
+            2.4.7	Acesso Login certo e senha certa

@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da5c1125-cf27-476a-b0d4-cf19628b4431" name="Changes" comment="Frist commit mudolo 3">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anatocoes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ademy/BaseLoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ademy/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ademy/pageObject/LoginPO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ademy/BatePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ademy/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/ademy/GoogleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ademy/GoogleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +64,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
@@ -90,24 +102,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "IntegrationPerformanceTest"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -116,8 +133,8 @@
       <recent name="com.ademy" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.GoogleTest (1)">
-    <configuration name="GoogleTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.LoginTest">
+    <configuration name="LoginTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -130,7 +147,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.ademy.GoogleTest&quot;" />
+            <option value="&quot;com.ademy.LoginTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -140,7 +157,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="GoogleTest.devePesquisarNoGoogle (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LoginTest.TC001_naoDeveTerAcessoSemLoginESenha" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -153,7 +170,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.ademy.GoogleTest.devePesquisarNoGoogle&quot;" />
+            <option value="&quot;com.ademy.LoginTest.TC001_naoDeveTerAcessoSemLoginESenha&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -163,7 +180,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="GoogleTest.devePesquisarNoGoogle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LoginTest.TC007_deveTerAcessoComLoginESenhaCorretos" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -176,7 +193,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ademy.GoogleTest.devePesquisarNoGoogle&quot;" />
+            <option value="&quot;com.ademy.LoginTest.TC007_deveTerAcessoComLoginESenhaCorretos&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -186,7 +203,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="GoogleTest.devePesquisarNoGoogle2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LoginTest.TC1_naoDeveTerAcessoSemLoginESenha" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -199,7 +216,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.ademy.GoogleTest.devePesquisarNoGoogle2&quot;" />
+            <option value="&quot;com.ademy.LoginTest.TC1_naoDeveTerAcessoSemLoginESenha&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -209,34 +226,36 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TesteAutomatizadoJavaSeleniumUdemy [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LoginTest.TC7_deveTerAcessoComLoginESenhaCorretos" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="build" />
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.ademy.LoginTest.TC7_deveTerAcessoComLoginESenhaCorretos&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.GoogleTest (1)" />
-        <item itemvalue="Gradle.GoogleTest.devePesquisarNoGoogle (1)" />
-        <item itemvalue="Gradle.GoogleTest.devePesquisarNoGoogle2" />
-        <item itemvalue="Gradle.TesteAutomatizadoJavaSeleniumUdemy [build]" />
-        <item itemvalue="Gradle.GoogleTest.devePesquisarNoGoogle" />
+        <item itemvalue="Gradle.LoginTest" />
+        <item itemvalue="Gradle.LoginTest.TC001_naoDeveTerAcessoSemLoginESenha" />
+        <item itemvalue="Gradle.LoginTest.TC007_deveTerAcessoComLoginESenhaCorretos" />
+        <item itemvalue="Gradle.LoginTest.TC7_deveTerAcessoComLoginESenhaCorretos" />
+        <item itemvalue="Gradle.LoginTest.TC1_naoDeveTerAcessoSemLoginESenha" />
       </list>
     </recent_temporary>
   </component>
@@ -250,9 +269,21 @@
       <updated>1678184825020</updated>
       <workItem from="1678184825823" duration="7670000" />
     </task>
+    <task id="LOCAL-00001" summary="Frist commit mudolo 3">
+      <created>1678205088912</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678205088912</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Frist commit mudolo 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Frist commit mudolo 3" />
   </component>
 </project>
